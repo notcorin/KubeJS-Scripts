@@ -33,7 +33,8 @@ ServerEvents.recipes(event => {
     'wither',
     'warden',
     'squid',
-    'piglich'
+    'artifacts/mimic',
+    'allthemodium/piglich'
   ];
   MOB_MODELS.forEach(mob => {
     event.shapeless(
